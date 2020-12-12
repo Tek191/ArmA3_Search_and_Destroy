@@ -1,0 +1,53 @@
+class CfgDebriefing
+{  
+	class endGREENFOREliminated 							//GREENFOR ELIMINATED AND BOMB NOT PLANTED
+	{
+		title = "BLUFOR WINS";
+		subtitle = "";
+		description = "GREENFOR was eliminated!";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = { 0, 0.3, 0.6, 1 };
+	};
+	
+	class endBLUFOREliminated							//BLUFOR ELIMINATED
+	{
+		title = "GREENFOR WINS";
+		subtitle = "";
+		description = "BLUFOR was eliminated!";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0.0, 0.5, 0, 1 };
+	};
+	
+	class endBombDefused							//BOMB DEFUSED
+	{
+		title = "BLUFOR WINS";
+		subtitle = "";
+		description = "Bomb was defused!";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0, 0.3, 0.6, 1 };
+	};
+
+	class endBombExploded						//BOMB EXPLODED
+	{
+		title = "GREENFOR WINS";
+		subtitle = "";
+		description = "Bomb exploded!";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0.0, 0.5, 0, 1 };
+	};
+	
+	class endTimesUp						//TIMER RAN OUT
+	{
+		title = "BLUFOR WINS";
+		subtitle = "";
+		description = "Timer ran out!";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0, 0.3, 0.6, 1 };
+	};
+
+};
