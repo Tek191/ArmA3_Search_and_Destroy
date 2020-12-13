@@ -15,9 +15,9 @@ publicVariable "randomStart";
 
 if (randomStart == 0) then
 {
-	deleteVehicle defuseDeviceB; deleteVehicle defuseTableB; deleteVehicle bombTrolleyB; _script = [defuseDeviceA, 45] execVM "bomb.sqf";
+	deleteVehicle defuseDeviceB; deleteVehicle defuseTableB; deleteVehicle bombTrolleyB;
 }
 else
 {
-	deleteVehicle defuseDeviceA; deleteVehicle defuseTableA; deleteVehicle bombTrolleyA; _script = [defuseDeviceB, 45] execVM "bomb.sqf";
+	deleteVehicle defuseDeviceA; deleteVehicle defuseTableA; deleteVehicle bombTrolleyA;
 };

@@ -16,6 +16,9 @@ description.ext
 bomb.sqf 
 	Nothing
 
+bombTimer.sqf
+	Nothing
+
 updateBombMarker.sqf
 	Nothing
 
@@ -41,6 +44,9 @@ bomb.sqf
 	Line 85: Round time length, should equal the start timer + round length time, default 370 (10 + 360)
 	
 	Line 105: Frequency of script updating, higher is more accurate but lowers performance, default 0.5
+
+bombTimer.sqf
+	Nothing
 
 updateBombMarker.sqf
 	Nothing
