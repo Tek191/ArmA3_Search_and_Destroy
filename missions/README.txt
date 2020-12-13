@@ -10,3 +10,5 @@ To import the missions
 
 2: Copy the folders from  Arma3_SnD_V#_#_#\defaultMissions folder into your mpmissions folder
 
+Inside the mission folder import all the script files from the scripts folder
+

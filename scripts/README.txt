@@ -38,7 +38,7 @@ bomb.sqf
 
 	Line 71: Bomb Defuse timer, default 5
 	
-	Line 85: Round time length, should equal the start timer + round length time, default 310 (10 + 300)
+	Line 85: Round time length, should equal the start timer + round length time, default 370 (10 + 360)
 	
 	Line 105: Frequency of script updating, higher is more accurate but lowers performance, default 0.5
 

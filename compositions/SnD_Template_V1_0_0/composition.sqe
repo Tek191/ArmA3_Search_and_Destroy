@@ -1,0 +1,4469 @@
+version=53;
+center[]={23474.395,3.1900001,18627.99};
+class items
+{
+	items=2;
+	class Item0
+	{
+		dataType="Layer";
+		name="BRIEFING";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Layer";
+				name="BLUFOR";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Marker";
+						position[]={42.113281,0,-9.8710938};
+						name="marker_0";
+						type="b_inf";
+						a=2;
+						b=2;
+						id=33;
+					};
+				};
+				id=2;
+			};
+			class Item1
+			{
+				dataType="Layer";
+				name="GREENFOR";
+				class Entities
+				{
+					items=1;
+					class Item0
+					{
+						dataType="Marker";
+						position[]={54.914063,0,-9.2460938};
+						name="marker_1";
+						type="n_inf";
+						a=2;
+						b=2;
+						id=34;
+					};
+				};
+				id=5;
+			};
+			class Item2
+			{
+				dataType="Layer";
+				name="OTHER";
+				class Entities
+				{
+					items=5;
+					class Item0
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={103.54883,0,17.724609};
+						};
+						areaSize[]={250,0,150};
+						areaIsRectangle=1;
+						flags=1;
+						id=14;
+						type="ModuleCoverMap_F";
+					};
+					class Item1
+					{
+						dataType="Marker";
+						position[]={54.814453,0,23.509766};
+						name="markerBombSiteA";
+						text="A";
+						type="mil_triangle";
+						colorName="ColorUNKNOWN";
+						id=32;
+					};
+					class Item2
+					{
+						dataType="Marker";
+						position[]={54.994141,0,29.859375};
+						name="markerBombSiteB";
+						text="B";
+						type="mil_triangle";
+						colorName="ColorUNKNOWN";
+						id=31;
+					};
+					class Item3
+					{
+						dataType="Marker";
+						position[]={147.28711,0,17.724609};
+						name="marker_15";
+						markerType="RECTANGLE";
+						type="rectangle";
+						colorName="ColorRed";
+						a=2;
+						b=150;
+						id=294;
+					};
+					class Item4
+					{
+						dataType="Marker";
+						position[]={54.904297,0,5.0546875};
+						name="markerBomb";
+						text="Bomb";
+						type="mil_box";
+						colorName="ColorGUER";
+						a=0.5;
+						b=0.5;
+						id=442;
+					};
+				};
+				id=7;
+				atlOffset=4.4822693e-005;
+			};
+		};
+		id=0;
+		atlOffset=2.2411346e-005;
+	};
+	class Item1
+	{
+		dataType="Layer";
+		name="MAP";
+		class Entities
+		{
+			items=3;
+			class Item0
+			{
+				dataType="Layer";
+				name="LOGIC";
+				class Entities
+				{
+					items=13;
+					class Item0
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={52.863281,0,-1.7910156};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=24;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item1
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={54.658203,0,-1.6640625};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=25;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item2
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={50.667969,0,-1.9960938};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=26;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item3
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={49.015625,0,-2.1015625};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=27;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item4
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={46.958984,0,-2.2324219};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=28;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item5
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={55.785156,0,-7.0351563};
+							angles[]={-0,6.0696387,0};
+						};
+						id=132;
+						type="ModuleCurator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="ModuleCurator_F_Owner";
+								expression="_this setVariable ['Owner',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="#adminLogged";
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="ModuleCurator_F_Forced";
+								expression="_this setVariable ['Forced',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ModuleCurator_F_Name";
+								expression="_this setVariable ['Name',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="ModuleCurator_F_Addons";
+								expression="_this setVariable ['Addons',_value,true];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=3;
+									};
+								};
+							};
+							nAttributes=4;
+						};
+					};
+					class Item6
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={62.091797,0,-1.1328125};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=408;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item7
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={63.886719,0,-1.0039063};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=409;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item8
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={59.894531,0,-1.3359375};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=410;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item9
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={58.246094,0,-1.4414063};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=411;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item10
+					{
+						dataType="Logic";
+						class PositionInfo
+						{
+							position[]={56.1875,0,-1.5722656};
+							angles[]={-0,3.0644081,0};
+						};
+						isPlayable=1;
+						description="Spectator ";
+						id=412;
+						type="VirtualSpectator_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="AllowFreeCamera";
+								expression="_this setVariable ['AllowFreeCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute1
+							{
+								property="WhitelistedSides";
+								expression="_this setVariable ['WhitelistedSides', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"ARRAY"
+											};
+										};
+									};
+								};
+							};
+							class Attribute2
+							{
+								property="ShowFocusInfo";
+								expression="_this setVariable ['ShowFocusInfo', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							class Attribute3
+							{
+								property="AllowAi";
+								expression="_this setVariable ['AllowAi', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+							class Attribute4
+							{
+								property="Allow3PPCamera";
+								expression="_this setVariable ['Allow3PPCamera', _value];";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=5;
+						};
+					};
+					class Item11
+					{
+						dataType="Trigger";
+						position[]={56.714844,0,-12.634766};
+						class Attributes
+						{
+							name="triggerBLUFOREliminated";
+							text="Check if BLUFOR eliminated";
+							condition="({side _x == west && alive _x} count allUnits == 0);";
+							onActivation="[1] remoteExecCall ['tek_fnc_missionEnd', 0];";
+							sizeA=0;
+							sizeB=0;
+							isServerOnly=1;
+						};
+						id=131;
+						type="EmptyDetector";
+					};
+					class Item12
+					{
+						dataType="Trigger";
+						position[]={56.646484,0,-19.408203};
+						class Attributes
+						{
+							name="triggerGREENFOREliminated";
+							text="Check if GREENFOR eliminated";
+							condition="({side _x == resistance && alive _x} count allUnits == 0) && !(defuseDevice getVariable 'bombState'  in [1, 2]) && time > 10;";
+							onActivation="[0] remoteExecCall ['tek_fnc_missionEnd', 0];";
+							sizeA=0;
+							sizeB=0;
+							isServerOnly=1;
+						};
+						id=130;
+						type="EmptyDetector";
+					};
+				};
+				id=11;
+				atlOffset=-15.769382;
+			};
+			class Item1
+			{
+				dataType="Layer";
+				name="OBJECTS";
+				class Entities
+				{
+					items=6;
+					class Item0
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.910156,0.73400879,23.134766};
+							angles[]={-0,1.5411922,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							name="bombTrolleyA";
+							disableSimulation=1;
+						};
+						id=446;
+						type="Land_Bomb_Trolley_01_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item1
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.683594,0.73394775,28.291016};
+							angles[]={-0,1.5704336,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							name="bombTrolleyB";
+							disableSimulation=1;
+						};
+						id=443;
+						type="Land_Bomb_Trolley_01_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item2
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.648438,0.41155243,24.650391};
+							angles[]={-0,6.2382083,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							name="defuseTableA";
+							disableSimulation=1;
+						};
+						id=447;
+						type="Land_CampingTable_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item3
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.697266,0.41153336,29.845703};
+							angles[]={-0,6.2186255,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							name="defuseTableB";
+							disableSimulation=1;
+						};
+						id=444;
+						type="Land_CampingTable_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item4
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.667969,1.0656819,24.654297};
+							angles[]={-0,6.2382083,0};
+						};
+						side="Empty";
+						flags=4;
+						class Attributes
+						{
+							name="defuseDeviceA";
+							disableSimulation=1;
+						};
+						id=448;
+						type="Land_MultiScreenComputer_01_sand_F";
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+					class Item5
+					{
+						dataType="Object";
+						class PositionInfo
+						{
+							position[]={49.716797,1.0651126,29.849609};
+							angles[]={-0,6.2186255,0};
+						};
+						side="Empty";
+						class Attributes
+						{
+							name="defuseDeviceB";
+							disableSimulation=1;
+						};
+						id=445;
+						type="Land_MultiScreenComputer_01_sand_F";
+						atlOffset=0.81504011;
+						class CustomAttributes
+						{
+							class Attribute0
+							{
+								property="allowDamage";
+								expression="_this allowdamage _value;";
+								class Value
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+							nAttributes=1;
+						};
+					};
+				};
+				id=12;
+				atlOffset=1.4912758;
+			};
+			class Item2
+			{
+				dataType="Layer";
+				name="UNITS";
+				class Entities
+				{
+					items=2;
+					class Item0
+					{
+						dataType="Group";
+						side="Independent";
+						class Entities
+						{
+							items=10;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.625,0.0014381409,14.126953};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=7;
+								class Attributes
+								{
+									description="Rifleman (Mk20)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_Mk20_plain_F";
+											optics="optic_Holosight";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_Sand_green";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_Sand_green";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=397;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.65625,0.0014381409,13.130859};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Autorifleman (AKM Drum Mag)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_AKM_F";
+											class primaryMuzzleMag
+											{
+												name="75Rnd_762x39_Mag_F";
+												ammoLeft=75;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla2_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="75Rnd_762x39_Mag_F";
+													count=3;
+													ammoLeft=75;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_khk";
+									};
+								};
+								id=398;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.685547,0.0014381409,12.130859};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Mk14)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="srifle_DMR_06_camo_F";
+											class primaryMuzzleMag
+											{
+												name="10Rnd_Mk14_762x51_Mag";
+												ammoLeft=10;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="10Rnd_Mk14_762x51_Mag";
+													count=4;
+													ammoLeft=10;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=399;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.716797,0.0014381409,11.130859};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Skorpion EVO)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="SMG_02_F";
+											optics="optic_Holosight_smg_blk_F";
+											muzzle="muzzle_snds_L";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_9x21_Mag_SMG_02_Tracer_Green";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_9x21_Mag_SMG_02_Tracer_Green";
+													count=9;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=2;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=400;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.748047,0.0014381409,10.130859};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (RPG)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_Mk20_plain_F";
+											optics="optic_Holosight";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_Sand_green";
+												ammoLeft=30;
+											};
+										};
+										class secondaryWeapon
+										{
+											name="launch_RPG7_F";
+											class primaryMuzzleMag
+											{
+												name="RPG7_F";
+												ammoLeft=1;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_Sand_green";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										class backpack
+										{
+											typeName="B_AssaultPack_blk";
+											isBackpack=1;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="RPG7_F";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=401;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item5
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.875,0.0014381409,8.9355469};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Mk20)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_Mk20_plain_F";
+											optics="optic_Holosight";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_Sand_green";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_Sand_green";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=115;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item6
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.904297,0.0014381409,7.9355469};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Autorifleman (AKM Drum Mag)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_AKM_F";
+											class primaryMuzzleMag
+											{
+												name="75Rnd_762x39_Mag_F";
+												ammoLeft=75;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla2_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="75Rnd_762x39_Mag_F";
+													count=3;
+													ammoLeft=75;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_khk";
+									};
+								};
+								id=117;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item7
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.935547,0.0014381409,6.9355469};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Mk14)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="srifle_DMR_06_camo_F";
+											class primaryMuzzleMag
+											{
+												name="10Rnd_Mk14_762x51_Mag";
+												ammoLeft=10;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="10Rnd_Mk14_762x51_Mag";
+													count=4;
+													ammoLeft=10;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=119;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item8
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.966797,0.0014381409,5.9355469};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Skorpion EVO)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="SMG_02_F";
+											optics="optic_Holosight_smg_blk_F";
+											muzzle="muzzle_snds_L";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_9x21_Mag_SMG_02_Tracer_Green";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_1";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_9x21_Mag_SMG_02_Tracer_Green";
+													count=9;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=2;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_ShemagOpen_tan";
+									};
+								};
+								id=121;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item9
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={52.998047,0.0014381409,4.9394531};
+									angles[]={0,4.681828,0};
+								};
+								side="Independent";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (Bomb Carrier REQUIRED)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_Mk20_plain_F";
+											optics="optic_Holosight";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_Sand_green";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_Rook40_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_green_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_BG_Guerilla1_2_F";
+											isBackpack=0;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_blk";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=4;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_Sand_green";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_green_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+												class Item3
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										class backpack
+										{
+											typeName="B_AssaultPack_blk";
+											isBackpack=1;
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="ToolKit";
+													count=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Shemag_olive";
+									};
+								};
+								id=113;
+								type="I_soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male02GRE";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.98000002;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+						};
+						class Attributes
+						{
+						};
+						id=396;
+					};
+					class Item1
+					{
+						dataType="Group";
+						side="West";
+						class Entities
+						{
+							items=10;
+							class Item0
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.527344,0.0014381409,10.052734};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=7;
+								class Attributes
+								{
+									description="Rifleman (HK416 16.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_02_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											underBarrel="bipod_01_F_blk";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=403;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male01ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.99000001;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item1
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.447266,0.0014381409,11.048828};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Autorifleman (M249)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="LMG_03_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="200Rnd_556x45_Box_Red_F";
+												ammoLeft=200;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="200Rnd_556x45_Box_Red_F";
+													count=1;
+													ammoLeft=200;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=404;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male10ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.95999998;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item2
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.367188,0.0014381409,12.044922};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (HK416 10.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_01_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=405;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male03ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=1;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item3
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.287109,0.0014381409,13.041016};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (HK416 10.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_01_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=406;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male05ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.97000003;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item4
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.208984,0.0014381409,14.041016};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (MP5K SD)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="SMG_05_F";
+											optics="optic_Holosight_smg_blk_F";
+											muzzle="muzzle_snds_L";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_9x21_Mag_SMG_02_Tracer_Red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_9x21_Mag_SMG_02_Tracer_Red";
+													count=9;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=407;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male08ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.97000003;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item5
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.859375,0.0014381409,5.1113281};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (HK416 16.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_02_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											underBarrel="bipod_01_F_blk";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=103;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male01ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.99000001;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item6
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.777344,0.0014381409,6.1074219};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Autorifleman (M249)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="LMG_03_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="200Rnd_556x45_Box_Red_F";
+												ammoLeft=200;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="200Rnd_556x45_Box_Red_F";
+													count=1;
+													ammoLeft=200;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=105;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male10ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.95999998;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item7
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.697266,0.0014381409,7.1035156};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (HK416 10.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_01_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=107;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male03ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=1;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item8
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.619141,0.0014381409,8.0996094};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (HK416 10.5)";
+									isPlayable=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="arifle_SPAR_01_blk_F";
+											optics="optic_Holosight_blk_F";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_556x45_Stanag_red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_556x45_Stanag_red";
+													count=7;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=1;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=109;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male05ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.97000003;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+							class Item9
+							{
+								dataType="Object";
+								class PositionInfo
+								{
+									position[]={50.539063,0.0014381409,9.0957031};
+									angles[]={0,1.4907097,0};
+								};
+								side="West";
+								flags=5;
+								class Attributes
+								{
+									description="Rifleman (MP5K SD)";
+									isPlayer=1;
+									class Inventory
+									{
+										class primaryWeapon
+										{
+											name="SMG_05_F";
+											optics="optic_Holosight_smg_blk_F";
+											muzzle="muzzle_snds_L";
+											flashlight="acc_flashlight";
+											class primaryMuzzleMag
+											{
+												name="30Rnd_9x21_Mag_SMG_02_Tracer_Red";
+												ammoLeft=30;
+											};
+										};
+										class handgun
+										{
+											name="hgun_P07_F";
+											class primaryMuzzleMag
+											{
+												name="16Rnd_9x21_red_Mag";
+												ammoLeft=16;
+											};
+										};
+										class uniform
+										{
+											typeName="U_B_CombatUniform_mcam_vest";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="SmokeShell";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+											class ItemCargo
+											{
+												items=1;
+												class Item0
+												{
+													name="FirstAidKit";
+													count=3;
+												};
+											};
+										};
+										class vest
+										{
+											typeName="V_PlateCarrier2_rgr";
+											isBackpack=0;
+											class MagazineCargo
+											{
+												items=3;
+												class Item0
+												{
+													name="30Rnd_9x21_Mag_SMG_02_Tracer_Red";
+													count=9;
+													ammoLeft=30;
+												};
+												class Item1
+												{
+													name="16Rnd_9x21_red_Mag";
+													count=1;
+													ammoLeft=16;
+												};
+												class Item2
+												{
+													name="HandGrenade";
+													count=2;
+													ammoLeft=1;
+												};
+											};
+										};
+										map="ItemMap";
+										compass="ItemCompass";
+										watch="ItemWatch";
+										radio="ItemRadio";
+										gps="ItemGPS";
+										headgear="H_Booniehat_mcamo";
+									};
+								};
+								id=30;
+								type="B_Soldier_F";
+								class CustomAttributes
+								{
+									class Attribute0
+									{
+										property="speaker";
+										expression="_this setspeaker _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"STRING"
+													};
+												};
+												value="Male08ENG";
+											};
+										};
+									};
+									class Attribute1
+									{
+										property="pitch";
+										expression="_this setpitch _value;";
+										class Value
+										{
+											class data
+											{
+												class type
+												{
+													type[]=
+													{
+														"SCALAR"
+													};
+												};
+												value=0.97000003;
+											};
+										};
+									};
+									nAttributes=2;
+								};
+							};
+						};
+						class Attributes
+						{
+						};
+						id=402;
+					};
+				};
+				id=13;
+			};
+		};
+		id=10;
+		atlOffset=1.6456456;
+	};
+};
