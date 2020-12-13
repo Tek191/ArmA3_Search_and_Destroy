@@ -6,5 +6,5 @@ made the required changes, you can build the mission in the editor.
 Version History: 
 Arma3_SnD_V1_0_0 : 12/12/2020
 Arma3_SnD_v1_0_1 : 13/12/2020
-
+Arma3_SnD_v1_0_2 : 13/12/2020
 
