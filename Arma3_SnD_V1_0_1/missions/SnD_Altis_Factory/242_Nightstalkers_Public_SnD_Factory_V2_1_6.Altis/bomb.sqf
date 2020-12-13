@@ -82,7 +82,7 @@ if (isServer) then {
     while {_loop} do {
         switch (_bomb getVariable "bombState") do {
             case UNACTIVATED: {
-				if (time > 310) then {
+				if (time > 370) then {
 					[END_TIMESUP] remoteExecCall ["tek_fnc_missionEnd", 0];
 					_loop = false;
 				}

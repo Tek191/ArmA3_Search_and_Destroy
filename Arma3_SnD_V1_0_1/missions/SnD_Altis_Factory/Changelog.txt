@@ -1,0 +1,5 @@
+Version: 2_1_6, 13/12/2020
+Loadouts Updated for both teams
+Instead of two teams of 5, one team of 10 per team
+Mission timer increased from 5 minutes to 6 minutes
+Changed map layout
