@@ -9,3 +9,7 @@ Added updateBombMarker.sqf
 initPlayerLocal activates updateBombMarker which keeps track of the bomb
 by updating a marker visible to GREENFOR but not BLUFOR, when a player has
 a tool kit in their inventory the marker it set to their pos in the last two seconds
+
+Version: 2_1_8, 13/12/2020
+Replaced bomb sites being set via pos with two bomb sites deleting one bomb site
+Fixed mission end markers
