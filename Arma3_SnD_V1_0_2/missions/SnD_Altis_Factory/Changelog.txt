@@ -1,0 +1,11 @@
+Version: 2_1_6, 13/12/2020
+Loadouts Updated for both teams
+Instead of two teams of 5, one team of 10 per team
+Mission timer increased from 5 minutes to 6 minutes
+Changed map layout
+
+Version: 2_1_7, 13/12/2020
+Added updateBombMarker.sqf
+initPlayerLocal activates updateBombMarker which keeps track of the bomb
+by updating a marker visible to GREENFOR but not BLUFOR, when a player has
+a tool kit in their inventory the marker it set to their pos in the last two seconds

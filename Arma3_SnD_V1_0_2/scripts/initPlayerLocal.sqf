@@ -24,8 +24,12 @@ player createDiaryRecord ["missionSettings", ["Mission Settings","
 			case 0: {"markerBombSiteB" setMarkerAlphaLocal 0; "markerBombSiteA" setMarkerColorLocal "ColorRed"};
 			case 1: {"markerBombSiteA" setMarkerAlphaLocal 0; "markerBombSiteB" setMarkerColorLocal "ColorRed"};
 		};
+		
+		"markerBomb" setMarkerAlphaLocal 0;
 	};
 };
+
+[player] execVM "updateBombMarker.sqf";
 
 ["checkMissionStarted", "onPreloadFinished", {
 

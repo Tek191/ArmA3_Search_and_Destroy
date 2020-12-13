@@ -16,6 +16,8 @@ description.ext
 bomb.sqf 
 	Nothing
 
+updateBombMarker.sqf
+	Nothing
 
 Code you can change (ei length of bomb plant):
 
@@ -39,9 +41,14 @@ bomb.sqf
 	
 	Line 105: Frequency of script updating, higher is more accurate but lowers performance, default 0.5
 
+updateBombMarker.sqf
+	Nothing
+
 
 On the object with the variable name "defuseDevice" the following code is executed in the init {_script = [this, 45] execVM "bomb.sqf";}. You can edit how long the bomb takes to explode by changing the default value of 45.
 This object is acquired from the compositions folder.
 
 
 You can change the loadouts of the units in the editor either via scripts or by accessing the arsenal.
+
+Add a marker named "markerBomb" to keep track of the bomb
