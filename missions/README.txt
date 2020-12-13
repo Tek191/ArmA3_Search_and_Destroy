@@ -8,7 +8,7 @@ To import the missions
 
 	Ei C:\Users\YOURNAME\Documents\Arma 3 - Other Profiles\Kerry\mpmissions
 
-2: Copy the folders from  Arma3_SnD_V#_#_#\defaultMissions folder into your mpmissions folder
+2: Copy the folders from the missions folder into your mpmissions folder
 
 Inside the mission folder import all the script files from the scripts folder
 

@@ -1,4 +1,4 @@
-Place these into your mpmissions mission folder: [initServer.sqf, init.sqf, initPlayerLocal.sqf, description.ext, bomb.sqf].
+Place these into your mission folder alongside the 'mission.sqm' file: [initServer.sqf, init.sqf, initPlayerLocal.sqf, description.ext, bomb.sqf].
 
 
 Code to change (ei bombsite locations):

@@ -6,7 +6,7 @@ To import these compositions
 
 	Ei C:\Users\YOURNAME\Documents\Arma 3 - Other Profiles\Kerry\compositions
 
-2: Copy the folders from  Arma3_SnD_V#_#_#\compositions folder into your compositions folder
+2: Copy the folders from the compositions folder into your compositions folder
 
 
 To use the compositions
