@@ -50,5 +50,3 @@ This object is acquired from the compositions folder.
 
 
 You can change the loadouts of the units in the editor either via scripts or by accessing the arsenal.
-
-Add a marker named "markerBomb" to keep track of the bomb
