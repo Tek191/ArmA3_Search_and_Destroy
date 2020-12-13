@@ -4,7 +4,7 @@ Place these into your mpmissions mission folder: [initServer.sqf, init.sqf, init
 Code to change (ei bombsite locations):
 
 initServer.sqf
-	Line 15-17, 21-23: Set the position of the two bomb sites
+	Nothing
 
 init.sqf
 	Line 1: The modpack assumes you are using ACRE2 and ensures the two teams can't understand each other
@@ -18,6 +18,7 @@ bomb.sqf
 
 updateBombMarker.sqf
 	Nothing
+
 
 Code you can change (ei length of bomb plant):
 
@@ -43,10 +44,6 @@ bomb.sqf
 
 updateBombMarker.sqf
 	Nothing
-
-
-On the object with the variable name "defuseDevice" the following code is executed in the init {_script = [this, 45] execVM "bomb.sqf";}. You can edit how long the bomb takes to explode by changing the default value of 45.
-This object is acquired from the compositions folder.
 
 
 You can change the loadouts of the units in the editor either via scripts or by accessing the arsenal.

@@ -13,3 +13,7 @@ a tool kit in their inventory the marker it set to their pos in the last two sec
 Version: 2_1_8, 13/12/2020
 Replaced bomb sites being set via pos with two bomb sites deleting one bomb site
 Fixed mission end markers
+
+Version: 2_1_9, 13/12/2020
+Added comments to all script files
+bomb.sqf doesnt refer to a bomb trolley but spawns bomb at bombsite
