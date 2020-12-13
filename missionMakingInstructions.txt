@@ -6,6 +6,7 @@ Bombsites:
 	ei defuseLaptopA, defuseTableA, bombTrolleyA
 	And not
 	ei defuseLaptopB, defuseTableA, bombTrolleyB	
+	Place the Bombsite A and B markers at their respective bombsite
 
 Player Slots and Markers:
 	Place the BLUFOR and GREENFOR teams at their starting locations
