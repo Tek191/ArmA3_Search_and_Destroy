@@ -15,6 +15,8 @@ tek_fnc_setActivated = {
     ["Bomb has been planted!"] remoteExec ["hint"];
     _bomb setVariable ["bombActivatedTime", time, true];
     _bomb setVariable ["bombState", ACTIVATED, true];
+	[[], "bombTimer.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
+	"markerBomb" setMarkerAlpha 0;
 };
 
 tek_fnc_setDefused = {
