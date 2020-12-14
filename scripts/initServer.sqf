@@ -17,9 +17,11 @@ if (randomStart == 0) then
 {
 	deleteVehicle defuseDeviceB; deleteVehicle defuseTableB; deleteVehicle bombTrolleyB;
 	serverBombSite = defuseDeviceA;
+	_scriptA = [[defuseDeviceA, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
 }
 else
 {
 	deleteVehicle defuseDeviceA; deleteVehicle defuseTableA; deleteVehicle bombTrolleyA;
 	serverBombSite = defuseDeviceB;
+	_scriptB = [[defuseDeviceB, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
 };

@@ -1,3 +1,6 @@
+bombPosition = [0, 0, 0];
+
+
 //Briefing for all players
 player createDiaryRecord ["Diary", ["Search and Destroy","
 	<br/>BLUFOR: Defend the bomb site at the red marker for 6 minutes. Eliminate the INDEPENDENT before they plant the bomb. If the bomb is planted you have 40 seconds to defuse the bomb (takes 5 seconds to defuse). 
@@ -41,12 +44,10 @@ When the server initialises variables then
 	};
 	
 	if (randomStart == 0) then {
-		_scriptA = [[defuseDeviceA, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
 		[defuseDeviceA, player] execVM "updateBombMarker.sqf";
 	}
 	else
 	{
-		_scriptB = [[defuseDeviceB, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
 		[defuseDeviceB, player] execVM "updateBombMarker.sqf";
 	};
 

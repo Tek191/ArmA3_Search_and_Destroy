@@ -8,14 +8,20 @@ While the mission is running
 
 params ["_bomb", "_player"];
 
+if (side _player == west) exitWith {};
+
 _loop = true;
 while {_loop} do {
 
 	if ([_player, "ToolKit"] call BIS_fnc_hasItem) then {
-		"markerBomb" setMarkerPos getPos _player;
+		bombPosition = getPos _player;
+		publicVariable "bombPosition";
 	};
 	
+	"markerBomb" setMarkerPosLocal bombPosition;
+	
 	if (_bomb getVariable "bombState" in [1, 2, 3]) then {
+		"markerBomb" setMarkerAlpha 0;
 		_loop = false;
 	};
 	
