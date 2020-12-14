@@ -1,4 +1,9 @@
 /*
+Mission Attributes to be changed marked by SNDMATBC SearchAndDestroyMissionAttributesToBeChanged
+*/
+
+
+/*
 className Debrief
 	
 	className endingType
@@ -65,3 +70,46 @@ class CfgDebriefing
 	};
 
 };
+
+
+//Mission Attributes
+
+//Loading Screen and Briefing
+class Header
+{
+	gameType =  TDM;	// Game type
+	minPlayers =  1;	// minimum number of players the mission supports
+	maxPlayers = 30;	// maximum number of players the mission supports
+};
+
+author = "YOURNAME, -=242=- Tek, -=242=- Egg"; //Mission Authors' Names, ADD YOUR NAME SNDMATBC
+onLoadName = "Search and Destroy, MAPNAME"; //Loading screen title SNDMATBC
+onLoadMission = "GREENFOR attacks, BLUFOR defends"; //Loading screen text 
+briefingName = "YOURMISSIONNAME_VERSION)"; //Mission name displayed in the mission selection menu. SNDMATBC
+
+
+//Respawn and Revive
+respawn = 3; //respawn as a bird
+respawnDelay = 9999;
+
+reviveMode = 1; //0 - disabled, 1 - enabled, 2 - controlled by player attributes
+reviveUnconsciousStateMode = 1; //0 - basic mode/always incap, 1 - advanced mode/can insta die, 2 - realistic/can insta die and happen more freq 
+reviveRequiredTrait = 0; //only medic revive 
+reviveRequiredItems = 0; //0 - none, 1 - medkit, 2 - medkit or first aid kit
+reviveRequiredItemsFakConsumed = 0; //0 - no, 1 - yes
+reviveMedicSpeedMultiplier = 1; //medics revive at time * x
+reviveDelay = 6; //revive duration
+reviveForceRespawnDelay = 6; //force respawn duration
+reviveBleedOutDelay = 60; //bleedout duration
+
+
+//Garbage Collector
+corpseManagerMode = 0; //0 = None - None of the units are managed by the manager
+wreckManagerMode = 0; //0 = None - None of the vehicles are managed by the manager
+
+
+//Mission Settings
+
+disabledAI = 1; //0: disabled - 1: enabled. Default: 0
+enableDebugConsole = 1; //console for admin
+joinUnassigned = 1;  //0 - auto balances players, 1 - lets players choose teams

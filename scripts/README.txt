@@ -22,6 +22,9 @@ bombTimer.sqf
 updateBombMarker.sqf
 	Nothing
 
+onPlayerKilled.sqf
+	Nothing
+
 
 Code you can change (ei length of bomb plant):
 
@@ -49,6 +52,9 @@ bombTimer.sqf
 	Nothing
 
 updateBombMarker.sqf
+	Nothing
+
+onPlayerKilled.sqf
 	Nothing
 
 
