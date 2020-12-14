@@ -16,8 +16,10 @@ publicVariable "randomStart";
 if (randomStart == 0) then
 {
 	deleteVehicle defuseDeviceB; deleteVehicle defuseTableB; deleteVehicle bombTrolleyB;
+	serverBombSite = defuseDeviceA;
 }
 else
 {
 	deleteVehicle defuseDeviceA; deleteVehicle defuseTableA; deleteVehicle bombTrolleyA;
+	serverBombSite = defuseDeviceB;
 };

@@ -37,14 +37,17 @@ When the server initialises variables then
 		};
 		
 		"markerBomb" setMarkerAlphaLocal 0;
+		
 	};
 	
 	if (randomStart == 0) then {
 		_scriptA = [[defuseDeviceA, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
+		[defuseDeviceA, player] execVM "updateBombMarker.sqf";
 	}
 	else
 	{
 		_scriptB = [[defuseDeviceB, 45], "bomb.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
+		[defuseDeviceB, player] execVM "updateBombMarker.sqf";
 	};
 
 };
@@ -62,6 +65,3 @@ When the server initialises variables then
 
 }] call BIS_fnc_addStackedEventHandler;
 
-
-//Execute script to update bomb
-[player] execVM "updateBombMarker.sqf";

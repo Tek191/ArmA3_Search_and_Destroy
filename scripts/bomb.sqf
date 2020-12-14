@@ -16,7 +16,7 @@ tek_fnc_setActivated = {
     _bomb setVariable ["bombActivatedTime", time, true];
     _bomb setVariable ["bombState", ACTIVATED, true];
 	[[_bomb], "bombTimer.sqf"] remoteExecCall ["BIS_fnc_execVM", 0, false];
-	"markerBomb" setMarkerAlpha 0;
+	"markerBomb" setMarkerAlphaLocal 0;
 };
 
 tek_fnc_setDefused = {
@@ -104,7 +104,10 @@ if (isServer) then {
             };
             case DETONATE: {
                 _bombDet = "Bo_GBU12_LGB" createVehicle getPos _bomb;
-				[END_BOMBEXPLODED] remoteExecCall ["tek_fnc_missionEnd", 0];
+				
+				if !(triggerActivated triggerBLUFOREliminated) then {
+					[END_BOMBEXPLODED] remoteExecCall ["tek_fnc_missionEnd", 0];
+				};
 				_loop = false;
             };
             case DEFUSED: {
