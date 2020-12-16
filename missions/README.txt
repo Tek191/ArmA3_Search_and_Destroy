@@ -1,4 +1,4 @@
-This folder contains missions I have created for the SnD gamemode. 
+This folder contains missions created for the SnD gamemode. 
 
 To import the missions
 
