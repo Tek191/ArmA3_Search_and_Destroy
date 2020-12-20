@@ -1,3 +1,5 @@
+triggerBLUFORPlayArea setTriggerInterval 2;
+
 bombPosition = [0, 0, 0];
 
 
